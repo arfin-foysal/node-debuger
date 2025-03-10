@@ -1,0 +1,18 @@
+{
+  "name": "node-debug-utils",
+  "version": "1.0.0",
+  "description": "A simple debugging utility for logging, dumping, and Express.js response debugging.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["debug", "dump", "dd", "debugging", "logging"],
+  "author": "Foysal Ahmmad",
+  "email": "af.arfinfoysal@gmail.com",
+  "designation": "Software Engineer (PHP, Node, Go, Laravel, Express.js)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arfin-Foysal/debug-utils"
+  }
+}
