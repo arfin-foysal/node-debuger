@@ -1,8 +1,8 @@
-Here is a properly structured **README.md** file for your **debug-utils** NPM package:
+Here is a properly structured **README.md** file for your **noodebug** NPM package:
 
 ---
 
-# 📦 debug-utils
+# 📦 noodebug
 
 **A simple debugging utility for logging, dumping, and Express.js response debugging.**  
 Easily debug your Node.js applications with structured logs, colored output, and Express.js support.
@@ -14,13 +14,13 @@ Easily debug your Node.js applications with structured logs, colored output, and
 Install the package using **npm** or **yarn**:
 
 ```sh
-npm install debug-utils
+npm install noodebug
 ```
 
 or
 
 ```sh
-yarn add debug-utils
+yarn add noodebug
 ```
 
 ---
@@ -32,7 +32,7 @@ yarn add debug-utils
 Import the package in your Node.js project:
 
 ```js
-const { dd, dump } = require("debug-utils");
+const { dd, dump } = require("noodebug");
 ```
 
 #### 🔹 `dump(...data)` - Logs data without stopping execution
@@ -85,7 +85,7 @@ dd("Fatal Error", { error: "Something went wrong", code: 500 });
 
 ```js
 const express = require("express");
-const { dd, dump } = require("debug-utils");
+const { dd, dump } = require("noodebug");
 
 const app = express();
 
@@ -142,7 +142,7 @@ app.get("/debug", (req, res) => {
 
 By default, logs print to the console. You can also enable logging to a file.
 
-1. Open `index.js` in `debug-utils`
+1. Open `index.js` in `noodebug`
 2. Set `LOG_TO_FILE = true`  
 3. Logs will be saved in `debug.log`
 

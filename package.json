@@ -1,6 +1,6 @@
 {
-  "name": "node-debug-utils",
-  "version": "1.0.0",
+  "name": "noodebug",
+  "version": "1.0.1",
   "description": "A simple debugging utility for logging, dumping, and Express.js response debugging.",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arfin-Foysal/debug-utils"
+    "url": "https://github.com/arfin-Foysal/noodebug",
+    "directory": "noodebug"
   }
 }
